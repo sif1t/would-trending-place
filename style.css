@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* header section start  */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* navbar section start  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo{
+     width: 140px;
+     cursor: pointer;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.register-btn{
+ background: #fff;
+ color: #000;
+ padding: 8px 20px;
+ border-radius: 20px;
+ text-decoration: none;
+ font-size: 14px;
+}
+/* navbar section end  */
+
+.container{
+    padding: 0 7%;
+}
+
+/* header section end  */
