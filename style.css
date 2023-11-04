@@ -141,7 +141,7 @@ nav{
 /* call to action section start */
 .cta{
     margin: 80px 0;
-    background-image: linear-gradient(to right, #18c5c5, #2cd4ee, transparent),url(images/banner-2.png);
+    background-image: linear-gradient(to right, rgb(53, 39, 40), transparent),url(images/banner-2.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -157,3 +157,13 @@ nav{
     font-size: 18PX;
     margin: 10px 0;
 }
+.cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+/* call to action section end */
