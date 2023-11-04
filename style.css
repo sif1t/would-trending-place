@@ -107,6 +107,25 @@ nav{
     width: 100%;
     border-radius: 10px;
 }
-
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
 /* exclusives section end  */
+
+/* trending places section start  */
+
+
+
+
+
+
+/* trending places section end  */
 
