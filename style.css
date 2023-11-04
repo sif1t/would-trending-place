@@ -95,5 +95,18 @@ nav{
 .search-bar form  label{
     font-weight: 600;
 }
-
 /* header section end  */
+
+/* exclusives section start  */
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* exclusives section end  */
+
