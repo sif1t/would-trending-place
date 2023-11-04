@@ -315,5 +315,51 @@ nav{
     .hidemenu{
         max-height: 300px;
     }
+    .header h1 {
+        padding-top: 200px;
+        font-size: 7vw;
+    }
+    .search-bar{
+        width: 90%;
+        margin: 30px auto;
+        padding:20px 10px 30px ;
+        border-radius: 5px;
+        position: relative;
+    }
+    .search-bar form{
+        display: block;
+    }
+    .search-bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .sub-title{
+        font-size: 6vw;
+    }
+    .cta{
+        padding: 15% 5%;
+    }
+    .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
 
  }
