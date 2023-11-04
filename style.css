@@ -205,7 +205,23 @@ nav{
     border-radius: 30px;
     font-size: 20px;
 }
-
-
-
  /* Travellers Stories section end */
+
+
+ /* about-msg section start */
+ 
+ .about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+ }
+ .about-msg h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500
+ }
+ .about-msg p{
+    text-align: justify;
+ }
+ /* about-msg section end */
