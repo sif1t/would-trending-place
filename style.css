@@ -167,3 +167,45 @@ nav{
     display: inline-block;
 }
 /* call to action section end */
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.stories div{
+    position: relative;
+    text-align: center;
+}
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 26px;
+}
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+
+ /* Travellers Stories section end */
