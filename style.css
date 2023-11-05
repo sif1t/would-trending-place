@@ -421,3 +421,36 @@ nav.navbar-white .fa-bars{
     padding: 30PX 0;
     border-top: 1PX solid #CCC;
  }
+
+ .house-img{
+    flex-basis: 40%;
+ }
+ .house-info{
+    flex-basis: 58%;
+    color: #555 ;
+ }
+ .house-img img{
+    width: 100%;
+    border-radius: 12px;
+ }
+
+ .house-info h3{
+    font-weight: 600;
+    color: #333;
+    margin: 4px 0;
+ }
+ .house-info i{
+    color: #0355F4;
+    font-size: 18px;
+    margin: 10px 1px;
+ }
+ .house-price{
+    text-align: right;
+ }
+ .house-price h4{
+    font-size: 20PX;
+ }
+ .house-price h4 span{
+    font-size: 16PX;
+    font-weight: 500%;
+ }
