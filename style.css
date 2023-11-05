@@ -402,6 +402,7 @@ nav.navbar-white .fa-bars{
     flex-wrap: wrap;
     justify-content: space-between;
  }
+
  .left-col{
     flex-basis: 70%;
  }
@@ -453,4 +454,13 @@ nav.navbar-white .fa-bars{
  .house-price h4 span{
     font-size: 16PX;
     font-weight: 500%;
+ }
+
+ .sidebar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+ }
+ .sidebar h2 {
+    font-weight: 500;
  }
