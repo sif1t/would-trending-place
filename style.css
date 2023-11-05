@@ -373,6 +373,7 @@ nav{
 
 
  /* listing page start  */
+ /* navbar section strat  */
 .navbar-white{
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
@@ -384,4 +385,11 @@ nav{
  background:linear-gradient(rgb(3, 177, 221) , rgb(4, 42, 255));
  color: #fff ;
 }
- 
+nav.navbar-white .fa-bars{
+    color: #000;
+}
+
+.navbar-white .active::after{
+    background:linear-gradient(rgb(3, 177, 221) , rgb(4, 42, 255));
+}
+ /* navbar section end  */
