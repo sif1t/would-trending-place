@@ -393,3 +393,31 @@ nav.navbar-white .fa-bars{
     background:linear-gradient(rgb(3, 177, 221) , rgb(4, 42, 255));
 }
  /* navbar section end  */
+
+ /* list-container section start  */
+
+ .list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .left-col{
+    flex-basis: 70%;
+ }
+ .right-col{
+    flex-basis: 25%;
+ }
+ .left-col h1{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+
+ .house{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30PX 0;
+    border-top: 1PX solid #CCC;
+ }
