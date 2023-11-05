@@ -394,7 +394,6 @@ nav.navbar-white .fa-bars{
 }
  /* navbar section end  */
 
- /* list-container section start  */
 
  .list-container{
     margin-top: 50px;
@@ -489,3 +488,37 @@ nav.navbar-white .fa-bars{
     text-decoration: none;
  }
  
+ .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+ }
+ .pagination img{
+    width: 15px;
+    margin: 10px 20px;
+ }
+.right-arrow{
+    transform: rotate(180deg);
+}
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pagination .current{
+    background: #333;
+    color: #fff;
+}
+ /* listing page end  */
+
+
+/* small screen for listing page  */
+
+@media only screen and (max-width: 700px){
+    
+}
