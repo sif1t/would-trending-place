@@ -586,3 +586,50 @@ nav.navbar-white .fa-bars{
 .gallery-img-1{
     grid-area: first;
 }
+
+.small-details h2{
+  font-weight: 500;
+}
+.small-details h4 {
+    text-align: right;
+    font-size: 22px;
+}
+.line{
+   border: 0;
+   height: 1px;
+   background: #ccc;
+   width: 100%;
+   max-width: 800px;   
+}
+
+.check-form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+.check-form label{
+    display: block;
+}
+.check-form div{
+    padding: 20px ;
+}
+.check-form  input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.check-form button{
+    background:linear-gradient(rgb(3, 177, 221) , rgb(4, 42, 255));
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+}
