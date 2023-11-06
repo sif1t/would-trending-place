@@ -572,3 +572,17 @@ nav.navbar-white .fa-bars{
     color: #0355F4;
     font-size: 14px;
 }
+
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .' 'first first . .';
+}
+.gallery div img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.gallery-img-1{
+    grid-area: first;
+}
