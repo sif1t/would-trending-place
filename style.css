@@ -664,3 +664,16 @@ nav.navbar-white .fa-bars{
     max-width: 700px;
     margin-bottom: 50px;
 }
+
+.map{
+    margin: 50px 0;
+}
+.map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map h3 {
+font-size: 26px;
+font-weight: 500;
+margin-bottom: 30px;
+}
