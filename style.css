@@ -633,3 +633,29 @@ nav.navbar-white .fa-bars{
     border-radius: 8px;
     font-size: 16px;
 }
+
+.guest-field{
+    flex: 1;
+}
+.details-list{
+    list-style: none;
+     margin: 50px 0;
+}
+.details-list li {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+.details-list li i{
+  position: absolute;
+  top: 5px;
+  left: -40px;
+}
