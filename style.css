@@ -681,3 +681,28 @@ margin-bottom: 30px;
    display: block;
    margin-bottom: 16px; 
 }
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.host i{
+    color: #0355F4;
+}
+.contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #0355F4;
+    border-radius: 8px;
+}
