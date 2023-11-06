@@ -659,3 +659,8 @@ nav.navbar-white .fa-bars{
   top: 5px;
   left: -40px;
 }
+
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+}
