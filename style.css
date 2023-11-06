@@ -547,7 +547,7 @@ nav.navbar-white .fa-bars{
 
 
 
-/* house-details page  */
+/* house-details page  start */
 
 .house-details{
     padding: 0 12%;
@@ -706,3 +706,7 @@ margin-bottom: 30px;
     border: 1px solid #0355F4;
     border-radius: 8px;
 }
+
+/* house-details page end */
+
+ /* media query */
